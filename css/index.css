@@ -1,5 +1,5 @@
 html {
-    font-size: 15px;
+    font-size: 10px; /* El font-size de html siempre va a ser 10px */
     font-family: 'EB Garamond', serif;
 }
 
@@ -10,7 +10,8 @@ html {
 }
 
 .pantalla {
-    max-width: 375px;
+    max-width: 37.5rem; /* 1rem = 10px */
     margin: auto;
+    padding: 1rem;
 }
 
