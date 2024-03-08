@@ -1,0 +1,32 @@
+html {
+    font-size: 10px; /* El font-size de html siempre va a ser 10px */
+    font-family: 'EB Garamond', serif;
+}
+
+:root {
+    --color1: ;
+    --color11: ;
+    --color111: ;
+}
+
+.pantalla {
+    max-width: 37.5rem; /* 1rem = 10px */
+    margin: auto;
+    padding: 1rem;
+}
+
+@media only screen and (max-width: 720px) {
+    .pantalla{
+        padding: 1rem 2rem ;
+    }
+
+    }
+
+
+@media only screen and (min-width: 1200px) {
+    .pantalla{
+        max-width: 100%;
+        padding: 1rem 2rem ;
+    }
+}
+
